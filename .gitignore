@@ -1,0 +1,26 @@
+# Dependencies
+node_modules/
+
+# Build outputs
+dist/
+coverage/
+*.tsbuildinfo
+
+# Reports & temporary artifacts
+cogtrace-report.html
+*.report.html
+
+# Python artifacts (if any local test scripts)
+__pycache__/
+.pytest_cache/
+.venv/
+*.egg-info/
+
+# Editor & OS files
+.vscode/*
+!.vscode/extensions.json
+.idea/
+.DS_Store
+Thumbs.db
+*.log
+npm-debug.log*
